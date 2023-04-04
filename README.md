@@ -6,15 +6,18 @@
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
 ---
 
-## Feature lombok documentation
+## Run Application
+###Success scenario: 
 
-- [Micronaut Project Lombok documentation](https://docs.micronaut.io/latest/guide/index.html#lombok)
+http://localhost:8080/employee/1
 
-- [https://projectlombok.org/features/all](https://projectlombok.org/features/all)
+http://localhost:8080/employee/2
 
+http://localhost:8080/employee/3
 
-## Feature http-client documentation
+http://localhost:8080/employee/5
 
-- [Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
+http://localhost:8080/employee/5
 
-
+###Fail scenario
+http://localhost:8080/employee/6
