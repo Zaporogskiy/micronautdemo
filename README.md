@@ -7,17 +7,22 @@
 ---
 
 ## Run Application
+###Dockerising
+1. Jump inside ./micronautdemo
+2. docker build -t micronautdemo .
+3. docker run -p 3333:8080 micronautdemo
+
 ###Success scenario: 
 
-http://localhost:8080/employee/1
+http://localhost:3333/employee/1
 
-http://localhost:8080/employee/2
+http://localhost:3333/employee/2
 
-http://localhost:8080/employee/3
+http://localhost:3333/employee/3
 
-http://localhost:8080/employee/5
+http://localhost:3333/employee/5
 
-http://localhost:8080/employee/5
+http://localhost:3333/employee/5
 
 ###Fail scenario
-http://localhost:8080/employee/6
+http://localhost:3333/employee/6
