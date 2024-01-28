@@ -1,4 +1,4 @@
-name: MicronautDemo CI/CD
+name: Micronaut Base Workflow CI/CD
 
 on:
   push:
