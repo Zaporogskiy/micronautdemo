@@ -17,9 +17,4 @@ class MicronautDemoTest {
     void testItWorks() {
         Assertions.assertTrue(application.isRunning());
     }
-
-    @Test
-    void testFailedItWorks() {
-        Assertions.assertFalse(application.isRunning());
-    }
 }
